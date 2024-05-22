@@ -1,0 +1,178 @@
+*{
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.main{
+    height: 100%;width: 100%;
+    background-image: url("beautiful-castle-architecture.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: -100; */
+    /* background-blend-mode: multiply; */
+    animation: mymove 12s infinite alternate-reverse;
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
+}
+
+video{
+    /* opacity: 80%; */
+}
+.nav{
+    height: 10%;
+    /* background-color: rgb(247, 0, 0); */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav>a{
+text-decoration: none;
+color: aliceblue;
+font-size: larger;
+font-weight: 300;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+transition: .25s;
+}
+.nav>a:hover{
+    color: rgba(78, 203, 216, 0.746);
+    font-size: x-large;
+}
+.nav>img{
+    height: 100%;
+    width: 8%;
+}
+.container{
+   display: flex;
+    height: 75%;
+    width: 40%;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+   
+}
+.hbo{
+    height: 10%;
+    width: 65%;
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid white; */
+}
+.one{
+   height: 100%;
+   width: 25%;
+ object-position: center;
+ object-fit: cover;
+
+}
+.two{
+height: 10%;
+width: 59%;
+
+
+
+
+}
+
+.container>p{
+    
+    height: 10%;
+    width: 60%;
+    color: whitesmoke;
+}
+.button{
+    height: 10%;width: 30%;
+    /* border: 1px solid wheat; */
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.button>button{
+height: 60%;
+width: 30%;
+background-color: rgba(240, 248, 255, 0.391);
+color: white;
+border: none;
+border-radius: 6px;
+font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgb(30, 143, 255);
+    cursor: pointer;
+}
+.corner{
+    height: 90%;width: 17%;
+    background-color: rgba(101, 109, 109, 0.532);
+    position: absolute;
+    top:10%;
+   right: 0%;
+   display: flex;
+   flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+ align-items: center;
+ 
+}
+    .corner>p{
+        color: aliceblue;
+    }
+    /* .corner>button{
+        height: 100%;width: 30%;
+        background-color: aquamarine;
+    
+    } */
+.corner>img{
+    height: 130px;
+    width: 100px;
+    border: 1px solid white;
+}
+.corner>img:hover{
+    height: 130px;
+    width: 100px;
+    border: 2px solid rgb(59, 201, 223);
+}
+.corner>p{
+    color: aliceblue;
+}
+.corner>button{
+    height: 100%;width: 30%;
+    background-color: rgb(51, 164, 225);
+    border: none;
+    font-size: 200;
+    color: azure;
+
+
+} 
+.corner>button:hover{
+    height: 100%;width: 30%;
+    background-color:black;
+    border: none;
+    font-size: 200;
+    color: azure;
+
+
+} 
+marquee{
+   background-color: #fbd88685;
+    /* padding: 10px 0; */
+    font-size: 20px;
+    font-weight: 300;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   }
+   /* parent-relative, child-absolute */
+   marquee:hover{
+  color:white;
+  cursor:pointer;
+   }
